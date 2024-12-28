@@ -1,0 +1,104 @@
+.icon-container {
+    position: absolute;
+    top: 25px; 
+    right:20px; 
+    z-index: 10;
+    background-color: rgba(255, 221, 225, 0.6);
+    padding:0.5%;
+    border-radius: 8px;
+    padding: 0.8rem 1rem;	
+}
+.navbar {
+    background-color: rgba(255, 221, 225, 0.6);
+    border-radius: 8px;
+    padding: 0.8rem 1rem;
+    margin-top: 1rem;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #5f4b8b;
+}
+.nav-link {
+    color: #5f4b8b;
+    transition: color 0.3s;
+}
+.nav-link:hover {
+    color: #d682a1;
+}
+.jumbotron {
+    background-color: rgba(255, 255, 255, 0.4);
+    color: #5f4b8b;
+    padding: 4rem;
+    border-radius: 15px;
+    margin-top: 2rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1.5s;
+}
+.carousel-item img {
+    border-radius: 15px;
+    max-height: 400px;
+    object-fit: cover;
+}
+.category-card {
+    border-radius: 15px;
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.category-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+}
+.btn-primary {
+    background-color: #d682a1;
+    border: none;
+    transition: background-color 0.3s, transform 0.3s;
+}
+.btn-primary:hover {
+    background-color: #ff82a0;
+    transform: scale(1.05);
+}
+.glow-text {
+    font-size: 2.5rem;
+    color: #f58867;
+    animation: glow 1.5s ease-in-out infinite alternate;
+}
+@keyframes glow {
+    from {
+        text-shadow: 0 0 5px #ffdee2, 0 0 10px #ffdee2, 0 0 20px #ffdee2;
+    }
+    to {
+        text-shadow: 0 0 20px #ff82a0, 0 0 30px #ff82a0, 0 0 40px #ff82a0;
+    }
+}
+footer {
+    background-color: rgba(255, 221, 225, 0.4);
+    padding: 1rem;
+    color: #5f4b8b;
+    border-radius: 8px;
+    margin-top: 2rem;
+    text-align: center;
+    width: 100%;
+}
+footer a {
+    color: #5f4b8b;
+    margin: 0 0.5rem;
+}
+.scroll-down {
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: #ff82a0;
+    animation: bounce 1.5s infinite;
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
+}
+.pro-box{
+    height: 580px;
+}
